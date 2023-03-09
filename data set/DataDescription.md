@@ -1,4 +1,4 @@
-About this file
+<h1>About this file<h1>
 Attribute Information: (classes: edible=e, poisonous=p)
 
 cap-shape: bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s
