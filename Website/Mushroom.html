@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mushroom Classifier</title>
+  <link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+      <h1>Mushroom Classification</h1>
+      <h2> <strong>Please select the characterstic of your mushroom</strong></h2>
+      <hr>
+    </header>
+  
+    <main>
+      <p class='sentence'>Please select 5 at least characterstics </p>
+
+  
+      <hr>
+      <div>
+  
+        </p>
+        <form>
+          <fieldset>
+            <legend>Please select</legend>
+            <div>
+              <t class="text"><strong>cap-shape:</strong><t>
+              <input type="radio" id="capShapeChoice1" name="capShap" value="b" />
+              <label for="capShapeChoice1">bell</label>
+        
+              <input type="radio" id="capShapeChoice2" name="capShap" value="c" />
+              <label for="capShapeChoice2">conical</label>
+        
+              <input type="radio" id="capShapeChoice3" name="capShape" value="x" />
+              <label for="capShapeChoice3">convex</label>
+              <input type="radio" id="capShapeChoice4" name="capShape" value="f" />
+              <label for="contactChoice4">flat</label>
+              <input type="radio" id="capShapeChoice5" name="capShape" value="k" />
+              <label for="contactChoice5">knobbed</label>
+              <input type="radio" id="capShapeChoice6" name="capShape" value="s" />
+              <label for="contactChoice6">sunken</label>
+              <input type="radio" id="NIL" name="capShape" value="NIL" />
+              <label for="NIL">NIL</label>
+              <div>
+                
+              <t class="text"><strong>cap-surface:</strong><t>
+                <input type="radio" id="capSurfaceChoice1" name="capSurface" value="f" />
+                <label for="capSurfaceChoice1">fibrous</label>
+          
+                <input type="radio" id="capSurfaceChoice2" name="capSurface" value="g" />
+                <label for="capSurfaceChoice2">grooves</label>
+          
+                <input type="radio" id="capSurfaceChoice3" name="capSurface" value="s" />
+                <label for="capSurfaceChoice3">smooth</label>
+                <input type="radio" id="NIL" name="capSurface" value="NIL" />
+                <label for="NIL">NIL</label>
+                <div>
+               <t class="text"><strong>cap-color:</strong><t>
+                <input type="radio" id="capColorChoice1" name="capColor" value="n" />
+                <label for="capColorChoice1">brown</label>
+                <input type="radio" id="capColorChoice2" name="capColor" value="b" />
+                <label for="capColorChoice2">grooves</label>
+                <input type="radio" id="capColorChoice3" name="capColor" value="c" />
+                <label for="capColorChoice3">cinnamon</label>
+                <input type="radio" id="capColorChoice4" name="capColor" value="g" />
+                <label for="capColorChoice4">gray</label>
+                <input type="radio" id="capColorChoice5" name="capColor" value="r" />
+                <label for="capColorChoice5">green</label>
+                <input type="radio" id="capColorChoice6" name="capColor" value="p" />
+                <label for="capColorChoice6">purple</label>
+                <input type="radio" id="capColorChoice7" name="capColor" value="e" />
+                <label for="capColorChoice7">red</label>
+                <input type="radio" id="capColorChoice8" name="capColor" value="w" />
+                <label for="capColorChoice8">white</label>
+                <input type="radio" id="capColorChoice9" name="capColor" value="y" />
+                <label for="capColorChoice9">yellow</label>
+                <input type="radio" id="NIL" name="capColor" value="NIL" />
+                <label for="NIL">NIL</label>
+                <div>
+
+                <t class="text"><strong>bruises:</strong></t>
+                <input type="radio" id="bruisesChoice9" name="bruises" value="t" />
+                <label for="bruisesChoice1">yes</label>
+                <input type="radio" id="bruisesChoice9" name="bruises" value="f" />
+                <label for="bruisesChoice2">no</label>
+                <input type="radio" id="NIL" name="capColor" value="NIL" />
+                <label for="NIL">NIL</label>
+                <div>
+                
+                  <t class="text"><strong>odor:</strong></t>
+                  <input type="radio" id="odorChoice1" name="odor" value="a" />
+                  <label for="odorChoice1">almond</label>
+                  <input type="radio" id="odorChoice2" name="odor" value="c" />
+                  <label for="odorChoice2">creosote</label>
+                  <input type="radio" id="odorChoice3" name="odor" value="y" />
+                  <label for="odorChoice3">fishy</label>
+                  <input type="radio" id="odorChoice4" name="odor" value="f" />
+                  <label for="odorChoice4">foul</label>
+                  <input type="radio" id="odorChoice5" name="odor" value="m" />
+                  <label for="odorChoice5">musty</label>
+                  <input type="radio" id="odorChoice6" name="odor" value="n" />
+                  <label for="odorChoice6">none</label>
+                  <input type="radio" id="odorChoice7" name="odor" value="p" />
+                  <label for="odorChoice7">pungent</label>
+                  <input type="radio" id="odorChoice8" name="odor" value="s" />
+                  <label for="odorChoice8">spicy</label>
+                  <input type="radio" id="NIL" name="capColor" value="NIL" />
+                  <label for="NIL">NIL</label>
+                  <div>
+
+                    <t class="text"><strong>gillAttachment:</strong></t>
+                    <input type="radio" id="gillAttachmentChoice1" name="gillAttachment" value="a" />
+                    <label for="gillAttachmentChoice1">attached</label>
+                    <input type="radio" id="gillAttachmentChoice2" name="gillAttachment" value="d" />
+                    <label for="gillAttachmentChoice2">descending</label>
+                    <input type="radio" id="gillAttachmentChoice3" name="gillAttachment" value="f" />
+                    <label for="gillAttachmentChoice3">free</label>
+                    <input type="radio" id="gillAttachmentChoice4" name="gillAttachment" value="n" />
+                    <label for="gillAttachmentChoice3">notched</label>
+                    <input type="radio" id="NIL" name="gillAttachment" value="NIL" />
+                  <label for="NIL">NIL</label>
+                    <div>
+
+                      <t class="text"><strong>gillSpacing:</strong></t>
+                      <input type="radio" id="gillSpacingChoice1" name="gillSpacing" value="c" />
+                      <label for="gillSpacingChoice1">close</label>
+                      <input type="radio" id="gillSpacingChoice2" name="gillSpacing" value="w" />
+                      <label for="gillSpacingChoice2">crowded</label>
+                      <input type="radio" id="gillSpacingChoice3" name="gillSpacing" value="d" />
+                      <label for="gillSpacingChoice3">distant</label>
+                      <input type="radio" id="NIL" name="gillSpacing" value="NIL" />
+                  <label for="NIL">NIL</label>
+                  <div></div>
+                  <t class="text"><strong>gillSize:</strong></t>
+                  <input type="radio" id="gillSizeChoice1" name="gillSize" value="b" />
+                  <label for="gillSizeChoice1">broad</label>
+                  <input type="radio" id="gillSizeChoice2" name="gillSize" value="n" />
+                  <label for="gillSizeChoice2">narrow</label>
+                  <input type="radio" id="NIL" name="gillSize" value="NIL" />
+                  <label for="NIL">NIL</label>
+<div>
+               <t class="text"><strong>gillColor:</strong><t>
+                <input type="radio" id="gillColorChoice1" name="gillColor" value="n" />
+                <label for="gillColorChoice1">brown</label>
+                <input type="radio" id="gillColorChoice2" name="gillColor" value="b" />
+                <label for="gillColorChoice2">buff</label>
+                <input type="radio" id="gillColorChoice4" name="gillColor" value="g" />
+                <label for="gillColorChoice4">gray</label>
+                <input type="radio" id="gillColorChoice3" name="gillColor" value="p" />
+                <label for="gillColorChoice3">pink</label>
+                <input type="radio" id="gillColorChoice5" name="gillColor" value="r" />
+                <label for="gillColorChoice5">green</label>
+                <input type="radio" id="gillColorChoice6" name="gillColor" value="u" />
+                <label for="gillColorChoice6">purple</label>
+                <input type="radio" id="gillColorChoice7" name="gillColor" value="e" />
+                <label for="gillColorChoice7">red</label>
+                <input type="radio" id="gillColorChoice8" name="gillColor" value="w" />
+                <label for="gillColorChoice8">white</label>
+                <input type="radio" id="gillColorChoice9" name="gillColor" value="y" />
+                <label for="gillColorChoice9">yellow</label>
+                <input type="radio" id="gillColorChoice10" name="gillColor" value="k" />
+                <label for="gillColorChoice10">black</label>
+                <input type="radio" id="gillColorChoice11" name="gillColor" value="h" />
+                <label for="gillColorChoice9">chocolate</label>
+                <input type="radio" id="gillColorChoice12" name="gillColor" value="o" />
+                <label for="gillColorChoice12">orange</label>
+
+                <input type="radio" id="NIL" name="gillColor" value="NIL" />
+                <label for="NIL">NIL</label>
+                <div>
+
+            
+            <div>
+              <button type="submit">Submit</button>
+            </div>
+          </fieldset>
+        </form>
+  
+        <script>
+        /* var timeText = "";
+  
+          function addTextNode() {
+            const dism = document.getElementById("reser");
+            const p1 = document.getElementById("p1");
+            const p2 = document.getElementById("p2");
+            const p3 = document.getElementById('p3');
+            const p4 = document.getElementById('p4');
+            p2.appendChild(document.createTextNode('Thanks for your reservation!'));
+            dism.style.display = 'none'; // make element disappear upon clicking of the button
+            var dy = Date();
+            let lst = [localStorage.getItem('currenttime')]
+           
+            p3.appendChild(document.createTextNode(dy));
+            p4.appendChild(document.createTextNode('You need to wait ' + timeText + " mins."));
+            localStorage.setItem('currenttime', dy);
+  
+  
+            //const content = fs.readFileSync(path);
+  
+  
+            function download(filename, text) {
+              var element = document.createElement('a');
+              element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+              element.setAttribute('download', filename);
+  
+              element.style.display = 'none';
+              document.body.appendChild(element);
+  
+              element.click();
+  
+              document.body.removeChild(element);
+            }
+            download("hello.txt", lst);
+          }
+  
+           // Code goes here
+           window.onload = function () {
+              var reader = new XMLHttpRequest() || new ActiveXObject('MSXML2.XMLHTTP');
+  
+              function loadFile() {
+                reader.open('get', 'test.txt', true);
+                reader.onload = displayContents;
+                reader.send(null);
+              }
+  
+              function displayContents() {
+                if (reader.readyState == 4) {
+                  var el = document.getElementById('p4');
+                  timeText = reader.responseText; // Text from the text files is assigned on this line
+                }
+              }
+              loadFile();
+            }*/
+        </script>
+      </div>
+    </main>
+  
+    <footer>
+      <p>© 2022 SCSE copyright</p>
+    </footer>
+  
+  
+  
+  
+  </body>
+  
+  
+  </html>
