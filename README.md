@@ -30,16 +30,7 @@ The objective of this project is to develop machine learning algorithms and AI m
 2)	Random Forest Classification
 3)	Convolution Neural Network (CNN) 
 
-## Outcome
-We manage to create two applications based on decision tree model and AI model to check the poisonous of mushrooms.
-
-The application can correctly identify the edible mushrooms and successfully solved our problem.
-
-*Risk Warning: Although our model's accuracy is high, we still strongly advise against eating any wild mushrooms.*
-
-
 ## Conclusion:
-
 There are many characteristics which when analysed shows that they are unique to poisonous mushrooms.  
 
 Both the machine learning algorithms which used the Kaggle dataset were similar in their accuracy rate, 99 and 100% respectively while the CNN which uses images of random mushrooms only returned an accuracy rate of 80%. However, CNN is a lot easier to use in application as users can simply take a picture of any mushroom while the machine learning algorithms would require users to analyse and input 22 characteristics.   
@@ -49,6 +40,14 @@ The *Kmode algorithm and proportion method* used to analyse the data also return
 The dataset from Kaggle is based a hypothetical data set from only 2 families of mushrooms which may have made the machine learning models overfitting.  
 
 While the high demand of running CNN on home computers limited the number of epochs we were able to run which may have reduced the accuracy rate.  
+
+
+
+#Outcome 
+We manage to create two applicable algorithms based on decision tree model and AI model to check whether a mushroom is edible. Users can either choose to input the characteristics of a mushroom manually and get a 100% accuracy rate or a take a picture of the AI model and receive a ~80% accuracy rate of whether a mushroom is edible. While many improvements can be made, this project has successfully acheived what it had set out to do.
+
+*Risk Warning: Although our model's accuracy is high, we still strongly advise against eating any wild mushrooms.*
+
 
 
 ## What did we learn from this project?  
