@@ -30,6 +30,12 @@ The objective of this project is to develop machine learning algorithms and AI m
 2)	Random Forest Classification
 3)	Convolution Neural Network (CNN) 
 
+## Outcome
+We manage to create two application based on decision tree model and AI model to check the poisonous of mushrooms.
+Successfully solved our problem.
+*Risk Warning: Although our model's accuracy is high, we still strongly advise against eating any wild mushrooms.*
+
+
 ## Conclusion:
 
 There are many characteristics which when analysed shows that they are unique to poisonous mushrooms.  
@@ -42,8 +48,9 @@ The dataset from Kaggle is based a hypothetical data set from only 2 families of
 
 While the high demand of running CNN on home computers limited the number of epochs we were able to run which may have reduced the accuracy rate.  
 
+
 ## What did we learn from this project?  
-As our dataset happened to be **entire categorical** while most of what we learnt in class was for numerical datasets, we learnt many methods to process and evaluate categorical data. Of which methods include:  
+As our dataset happened to be **entire categorical** while most of what we learnt in class was for numerical datasets, we learnt many methods which are outside the course to process and evaluate categorical data. Of which methods include:  
 1)	One-Hot Encoder  
 2)	KMode  
 3)	Fit-Transform  
