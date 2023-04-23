@@ -31,7 +31,7 @@ The objective of this project is to develop machine learning algorithms and AI m
 3)	Convolution Neural Network (CNN) 
 
 ## Outcome
-We manage to create two application based on decision tree model and AI model to check the poisonous of mushrooms.
+We manage to create two applications based on decision tree model and AI model to check the poisonous of mushrooms.
 
 Successfully solved our problem.
 
