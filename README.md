@@ -9,7 +9,7 @@
 Contained within are the source codes for our SC1015 (Introduction to Data Science and Artificial intelligence) Mini-Project. Our mini-project utilizes the mushroom classification dataset corresponding to 23 species of gilled mushrooms drawn from “The Audubon Society Field Guide to North American Mushrooms (1981)” taken from kaggle and 400 images of random mushrooms with classification from Wiki and MushroomWorld.
 
 ## Files Included:
-1) Slides
+1) Slides:
 The Powerpoint slides for the video.
 2) Jupyter Notebook #1: Data Extraction, Exploratory Analysis, Machine Learning, User input.
 The code in this notebook uses the mushroom classification dataset sourced from Kaggle. The order of presentation is as follows: (The code has to be loaded in order)
