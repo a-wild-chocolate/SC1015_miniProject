@@ -43,7 +43,7 @@ While the high demand of running CNN on home computers limited the number of epo
 
 
 
-#Outcome 
+## Outcome 
 We manage to create two applicable algorithms based on decision tree model and AI model to check whether a mushroom is edible. Users can either choose to input the characteristics of a mushroom manually and get a 100% accuracy rate or a take a picture of the AI model and receive a ~80% accuracy rate of whether a mushroom is edible. While many improvements can be made, this project has successfully acheived what it had set out to do.
 
 *Risk Warning: Although our model's accuracy is high, we still strongly advise against eating any wild mushrooms.*
