@@ -6,14 +6,24 @@
 - @eskimofishes: Ng Jun Yu
 
 ## About:
+Contained within are the source codes for our SC1015 (Introduction to Data Science and Artificial intelligence) Mini-Project. Our mini-project utilizes the mushroom classification dataset corresponding to 23 species of gilled mushrooms drawn from “The Audubon Society Field Guide to North American Mushrooms (1981)” taken from kaggle and 400 images of random mushrooms with classification from Wiki and MushroomWorld.
 
-Contained within are the source codes for our SC1015 (Introduction to Data Science and Artificial intelligence) Mini-Project.
-Our mini-project utilizes the mushroom classification dataset corresponding to 23 species of gilled mushrooms drawn from “The Audubon Society Field Guide to North American Mushrooms (1981)” and 400 images of random mushrooms with classification from Wiki and MushroomWorld.  
-## Files Included:  
+## Files Included:
+1) Slides
+The Powerpoint slides for the video.
+2) Jupyter Notebook #1: Data Extraction, Exploratory Analysis, Machine Learning, User input.
+The code in this notebook uses the mushroom classification dataset sourced from Kaggle. The order of presentation is as follows: (The code has to be loaded in order)
+1)	The dataset is extracted and cleaned before being having the proportions of poisonous and edible mushrooms for each characteristic calculated, visualized and compared. 
+2)	The Kmode method is further used to supplement the exploratory data analysis. 
+3)	The Machine Learning algorithms used are decision tree model and random forest classification model, both having the data tuned for the models to be able to work with the categorical variables.
+4)	A prototype of how a user-input system can work for the machine learning algorithms along with a sample input.
+3) Jupyter Notebook #2: Convolution Neural Network (CNN)
+4) DataSets:
+Contained within is the dataset sourced from kaggle and a repository of the images of mushrooms sourced from the internet.
 
-
-## Problem Definition:  **"Is this mushroom edible or poisonous?"**  
+## Problem Definition:
 The objective of this project is to develop machine learning algorithms and AI models to investigate the identifiable characteristics of a poisonous mushroom and use ML models to predict whether they are edible.
+
 
 ## Models Used:  
 1)	Decision Tree Model
