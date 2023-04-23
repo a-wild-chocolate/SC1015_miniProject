@@ -16,7 +16,7 @@ The code in this notebook uses the mushroom classification dataset sourced from 
     2)	The Kmode method is further used to supplement the exploratory data analysis. 
     3)	The Machine Learning algorithms used are decision tree model and random forest classification model, both having the data tuned for the models to be able to work with the categorical variables.
     4)	A prototype of how a user-input system can work for the machine learning algorithms along with a sample input.
-3) **AI Folder**: Contains the AI portion of the mini-project, separate ReadMe included withine
+3) **AI Folder**: Contains the AI portion of the mini-project, separate ReadMe included within
 
 4) **DataSets**:
 Contained within is the dataset sourced from kaggle and a repository of the images of mushrooms sourced from the internet.
