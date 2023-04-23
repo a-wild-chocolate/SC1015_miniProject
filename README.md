@@ -33,7 +33,7 @@ The objective of this project is to develop machine learning algorithms and AI m
 ## Outcome
 We manage to create two applications based on decision tree model and AI model to check the poisonous of mushrooms.
 
-Successfully solved our problem.
+The application can correctly identify the edible mushrooms and successfully solved our problem.
 
 *Risk Warning: Although our model's accuracy is high, we still strongly advise against eating any wild mushrooms.*
 
