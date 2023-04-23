@@ -48,3 +48,30 @@ New Models learnt include:
 
 
 ## References:
+Bonthu, H. (2023, April 18). KModes clustering algorithm for categorical data. *Analytics Vidhya.* https://www.analyticsvidhya.com/blog/2021/06/kmodes-clustering-algorithm-for-categorical-data/
+
+Chollet, B. F. (n.d.). Building powerful image classification models using very little data. *The Keras Blog ATOM.* https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+
+Koivisto, T., Nieminen, T., & Harjunpää, J. (2018). *Deep Shrooms: classifying mushroom images.* https://tuomonieminen.github.io/deep-shrooms/
+
+Li, H., Zhang, Y., Zhang, H., Zhou, J., Liang, J., Yin, Y., He, Q., Jiang, S., Zhang, Y., Yuan, Y., Lang, N., Cheng, B., Wang, M., & Sun, C. (2023). Mushroom poisoning outbreaks — China, 2022. *China CDC Weekly*, 5(3), 45–50. https://doi.org/10.46234/ccdcw2023.009
+
+Li, H., Zhang, H., Zhang, Y., Zhang, K., Zhou, J., Yin, Y., Jiang, S., Ma, P., He, Q., Zhang, Y., Wen, K., Yuan, Y., Lang, N., Lu, J., & Sun, C. (2020, January 1). Mushroom poisoning outbreaks - China, 2019. *China CDC Weekly.* https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2020.005#:~:text=At%20least%20100%20estimated%20people,China%20(2%2D5).
+
+Nuse, I. P., & Christensen, A. (2016, September 13). Finding mushrooms with your mobile phone. *Sciencenorway.* https://sciencenorway.no/forskningno-norway-smartphone/finding-mushrooms-with-your-mobile-phone/1437329
+
+Sandhyakrishnan02. (2022, March 1). Mushroom Classification - Decision Tree Classifier. *Kaggle.* https://www.kaggle.com/code/sandhyakrishnan02/mushroom-classification-decision-tree-classifier/notebook#11.-Decision-Tree-Creation
+
+scikit-learn developers. (2023). *sklearn.preprocessing.LabelEncoder.* Retrieved April 22, 2023, from https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html
+
+Some disturbing facets of the super mario universe. (n.d.). *VGJUNK.* Retrieved April 23, 2023, from http://retrovania-vgjunk.blogspot.com/2012/08/some-disturbing-facets-of-super-mario.html
+
+Tran, J. (2021, December 14). Random Forest Classifier in Python - Towards Data Science. *Medium.* https://towardsdatascience.com/my-random-forest-classifier-cheat-sheet-in-python-fedb84f8cf4f
+
+Ujjwalkarn. (2017, May 29). An Intuitive Explanation of Convolutional Neural Networks. *Ujjwal Karn.* https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/
+
+Wikipedia contributors. (2023). Convolutional neural network. *Wikipedia.* https://en.wikipedia.org/wiki/Convolutional_neural_network
+
+Wild Food UK. (2023, February 13). *Wild UK mushrooms (fungi): Guide to identification & picking.* Retrieved April 23, 2023, from https://www.wildfooduk.com/mushroom-guide/
+
+
